@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Blog · TRF Digital Marketing</title>
+<meta name="description" content="Ideas prácticas para vender más maquinaria pesada, montacargas y repuestos en LATAM: WhatsApp, calificación de leads, agentes de IA, Meta y Google Ads.">
+<meta property="og:title" content="Blog · TRF Digital Marketing">
+<meta property="og:type" content="website">
+<link rel="icon" href="../assets/logo-trf.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="../" aria-label="TRF Digital Marketing, inicio"><img src="../assets/logo-trf.png" alt="TRF Digital Marketing" width="69" height="40"></a>
+    <nav aria-label="Principal">
+      <a href="../#servicios">Servicios</a><a href="../#contenido">Contenido</a><a href="../#casos">Casos</a><a href="../#acompanamiento">Acompañamiento</a><a href="../#planes">Planes</a><a href="./" aria-current="page" style="color:var(--ink)">Blog</a>
+    </nav>
+    <a class="btn btn-b" href="../#auditoria">Auditoría gratis</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Blog</span>
+      <h1 class="display">Ideas para vender<br><span class="b">más maquinaria.</span></h1>
+      <p class="lead">WhatsApp, calificación de leads, agentes de IA y pauta, aplicados a dealers, importadores y distribuidores de repuestos en LATAM. Con datos reales, no teoría.</p>
+      <div class="pills" id="pills" role="group" aria-label="Filtrar por categoría"></div>
+    </div>
+  </section>
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="posts" id="posts-list" style="margin-top:0"><noscript><p class="empty">Active JavaScript para ver el listado.</p></noscript></div>
+    </div>
+  </section>
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="guar">
+        <div class="seal">48<small>HORAS</small></div>
+        <div><h3>¿Cuántos compradores se le van por WhatsApp?</h3><p>Le grabo gratis una auditoría de 5 minutos con las 3 fugas de su embudo y cómo cerrarlas.</p></div>
+        <a class="btn btn-b" href="../#auditoria">Quiero mi auditoría</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <p class="claim">Nosotros ponemos los leads. <span class="b">Ustedes cierran.</span></p>
+      <a class="foot-logo" href="../"><img src="../assets/logo-trf.png" alt="TRF Digital Marketing" width="166" height="96" loading="lazy"></a>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 TRF Digital Marketing · SeVam · Armenia, Colombia</span>
+      <span><a href="../#auditoria">Auditoría gratis</a> · <a href="../#politica">Política de tratamiento de datos</a></span>
+    </div>
+  </div>
+</footer>
+<a class="btn btn-b sticky" href="../#auditoria">Auditoría gratis en 48 h</a>
+
+<script src="../assets/posts.js"></script>
+<script>
+(function () {
+  var list = document.getElementById("posts-list"), pills = document.getElementById("pills");
+  var cats = ["Todo"].concat(TRF_POSTS.map(function (p) { return p.categoria; }).filter(function (c, i, a) { return a.indexOf(c) === i; }));
+  var actual = new URLSearchParams(location.search).get("categoria") || "Todo";
+  function pintar() {
+    trfTarjetas(list, "", { categoria: actual === "Todo" ? "" : actual });
+    pills.querySelectorAll("button").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.cat === actual ? "true" : "false"); });
+  }
+  cats.forEach(function (c) {
+    var b = document.createElement("button"); b.type = "button"; b.textContent = c; b.dataset.cat = c;
+    b.addEventListener("click", function () { actual = c; pintar(); });
+    pills.appendChild(b);
+  });
+  pintar();
+})();
+</script>
+</body>
+</html>
