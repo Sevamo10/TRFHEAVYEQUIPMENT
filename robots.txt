@@ -1,0 +1,24 @@
+# TRF Digital Marketing — buscadores y asistentes de IA bienvenidos
+User-agent: *
+Allow: /
+
+# Asistentes de IA (GEO): se permite explícitamente
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://trf-digital-marketing.vercel.app/sitemap.xml

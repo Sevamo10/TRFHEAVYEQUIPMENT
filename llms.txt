@@ -1,0 +1,34 @@
+# TRF Digital Marketing
+
+> Agencia de marketing especializada en empresas que venden maquinaria pesada, montacargas, maquinaria agrícola y repuestos en América Latina. Genera, responde y califica leads con Google Ads, Meta Ads, SEO, GEO y AEO, un CRM en GoHighLevel y agentes de IA en WhatsApp; el equipo comercial del cliente cierra la venta. Lema: "Nosotros ponemos los leads. Ustedes cierran las máquinas."
+
+- Equipos: excavadoras, miniexcavadoras, tractores, bulldozers, retrocargadoras, grúas, minicargadores, cargadores frontales, motoniveladoras, montacargas, torres de iluminación, equipos industriales y sus repuestos.
+- Sede: Armenia, Quindío, Colombia.
+- Mercados: Colombia, Perú, Ecuador, México, Chile y Centroamérica.
+- Fundador: SeVam, especialista en marketing y ventas de maquinaria pesada, agrícola y repuestos.
+- Contacto: traffieads1@gmail.com
+- Sitio: https://trf-digital-marketing.vercel.app/
+
+## Servicios
+
+- Posicionamiento SEO (Google y Google Maps), GEO (recomendaciones en asistentes de IA como ChatGPT, Gemini y Perplexity) y AEO (respuestas directas a preguntas del comprador).
+- Campañas de Google Ads: búsqueda, Performance Max y YouTube.
+- Campañas de Meta Ads (Facebook, Instagram, WhatsApp) por tipo de comprador.
+- CRM en GoHighLevel: pipeline por etapa, WhatsApp, calendario, alertas al asesor, seguimientos automáticos y reportes.
+- Agentes de IA en WhatsApp que responden en menos de 1 minuto, califican con 4 preguntas (uso, presupuesto, plazo, financiación), agendan con el asesor y hacen seguimiento.
+- Piezas gráficas y videos: el cliente envía el material solicitado, las ideas se definen en conjunto y TRF diseña las piezas.
+- Acompañamiento: reunión de onboarding, reuniones de feedback (mensuales, quincenales o semanales según el plan) y reporte mensual.
+
+## Resultados verificados por clientes (Colombia, nombres reservados)
+
+- Distribuidor de montacargas Zoomlion: más de 400 leads generados desde abril de 2026 y cerca de 15 montacargas vendidos por el cliente.
+- Distribuidor de excavadoras Zoomlion: CRM y agente de IA que responde y califica los leads de la web y de Meta; dos excavadoras vendidas al mes desde abril de 2026.
+- Distribuidor de maquinaria y repuestos: cerca de USD 7 millones vendidos entre 2023 y octubre de 2026 (COP 27.922 millones) y tasa de cierre de 6,4 % a 22,2 %; 75 % de los requerimientos llegaron por WhatsApp.
+
+## Páginas
+
+- [Inicio](https://trf-digital-marketing.vercel.app/): servicios, casos, acompañamiento, planes y auditoría gratis.
+- [Blog](https://trf-digital-marketing.vercel.app/blog/): artículos sobre ventas de maquinaria y repuestos.
+- [Por qué se pierden las ventas de maquinaria entre el WhatsApp y la cotización](https://trf-digital-marketing.vercel.app/blog/ventas-maquinaria-whatsapp-cotizacion.html)
+- [Cómo calificar a un comprador de maquinaria en 4 preguntas](https://trf-digital-marketing.vercel.app/blog/calificar-comprador-maquinaria.html)
+- [Agente de IA en WhatsApp para dealers de maquinaria](https://trf-digital-marketing.vercel.app/blog/agente-ia-whatsapp-maquinaria.html)
