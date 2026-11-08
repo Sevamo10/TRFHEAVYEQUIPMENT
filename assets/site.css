@@ -436,3 +436,17 @@ details p{color:var(--muted);margin-top:12px;max-width:620px}
 .ticker-eq .ticker-track span::after{width:12px;height:12px}
 .ticker-eq:hover .ticker-track,.ticker:hover .ticker-track{animation-play-state:paused}
 @media (max-width:640px){.ticker-eq{margin-bottom:70px;padding:22px 0}}
+
+/* =================== LOS NÚMEROS HABLAN (selector de moneda) =================== */
+.numbers{padding:90px 0 0}
+.numbers-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:40px}
+.currency{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.currency small{font-size:.74rem;color:var(--dim)}
+.seg{display:inline-flex;padding:4px;border-radius:999px;border:1px solid var(--line-2);background:var(--glass)}
+.seg button{font:700 .85rem var(--font);letter-spacing:.06em;color:var(--muted);background:transparent;border:0;border-radius:999px;padding:10px 20px;cursor:pointer;transition:background .2s,color .2s;min-height:40px}
+.seg button[aria-pressed="true"]{background:var(--b);color:var(--b-ink)}
+.seg button:hover:not([aria-pressed="true"]){color:var(--ink)}
+.stat b .money.cop{font-size:.62em}
+.metric b .money.cop{font-size:.85em}
+.float b .money.cop{font-size:.9em}
+@media (max-width:640px){.numbers{padding-top:70px}.currency{align-items:flex-start}}
