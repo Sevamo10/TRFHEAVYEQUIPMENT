@@ -2,7 +2,7 @@
 :root{
   --bg:#050607; --bg2:#0B0D0F; --glass:rgba(255,255,255,.035); --glass-2:rgba(255,255,255,.06);
   --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.16);
-  --ink:#F4F6F8; --muted:#8D949B; --dim:#59606A;
+  --ink:#F4F6F8; --muted:#8D949B; --dim:#858D96;
   --b:#56ACE0; --b2:#8FD0F7; --b-ink:#04121C; --b-glow:rgba(86,172,224,.28); --b-soft:rgba(86,172,224,.10);
   --max:1200px; --r:20px;
   --display:"Archivo Black",Impact,sans-serif; --font:Montserrat,system-ui,sans-serif;

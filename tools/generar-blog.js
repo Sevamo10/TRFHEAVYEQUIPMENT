@@ -22,7 +22,7 @@ function tarjeta(p, base) {
     `<a class="ph" href="${url}" tabindex="-1" aria-hidden="true"><img loading="lazy" alt="" width="800" height="500" src="${p.img}?w=800&q=65&auto=format&fit=crop"></a>` +
     `<div class="pcard-body"><p class="pmeta"><b>${esc(p.categoria)}</b> · <time datetime="${p.fecha}">${fecha(p.fecha)}</time> · ${p.lectura} min</p>` +
     `<h3><a href="${url}">${esc(p.titulo)}</a></h3><p class="pres">${esc(p.resumen)}</p>` +
-    `<a class="plink" href="${url}" aria-label="Leer: ${esc(p.titulo)}">Leer artículo <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a></div></article>`;
+    `<a class="plink" href="${url}" aria-label="Leer artículo: ${esc(p.titulo)}">Leer artículo <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a></div></article>`;
 }
 
 function inyectar(archivo, html) {
